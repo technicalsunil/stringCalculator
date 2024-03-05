@@ -18,5 +18,9 @@ describe StringCalculator do
 		it "return three input numbers" do
 			expect(scal.add("4,5,6")).to eq(15)
 		end
+
+		it "return any input numbers" do
+			expect(scal.add("4,5,6,7")).to eq(22)
+		end
 	end
 end
