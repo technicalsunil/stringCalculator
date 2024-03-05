@@ -10,5 +10,9 @@ describe StringCalculator do
 		it "return 5 input number" do
 			expect(scal.add("5")).to eq(5)
 		end
+
+		it "return two input numbers" do
+			expect(scal.add("4,5")).to eq(9)
+		end
 	end
 end
